@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 0px;
+            margin: 0px;
+        }
+        .banner{
+            width: 1000px;
+            border: 1px solid blue;
+            height: 400px;
+           /* overflow: hidden; */
+        }
+        .box{
+            border: 2px solid #000;
+            width:4800px;
+            height: 400px;
+            animation: myname 30s infinite 1s ;
+        }
+        .box>img{
+          float: left;
+        }
+        @keyframes myname{
+            25%{
+                margin-left: -2100px;
+            }
+            /* 70%{
+                margin-left: -4200px;
+            } */
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <div class="box">
+            <img src="img3/微信图片_20230401215854.jpg" alt="" >
+           <img src="img3/微信图片_202304012158541.jpg" alt="">
+           <img src="img3/微信图片_202304012158542.jpg" alt="">
+        </div>
+    </div>
+    <div class="banner">
+        <div class="box">
+            <img src="img3/微信图片_20230401215854.jpg" alt="" >
+            <img src="img3/微信图片_202304012158541.jpg" alt="">
+            <img src="img3/微信图片_202304012158542.jpg" alt="">
+            <img src="img3/微信图片_202304012158544.jpg" alt="">
+
+        </div>
+    </div>
+</body>
+</html>

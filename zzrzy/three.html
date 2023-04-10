@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            list-style: none;
+            text-decoration: none;
+        } 
+        .nav{
+            height: 40px;
+            background: lightsalmon;
+            box-shadow: 0 5px 6px  #2a168e;
+        }
+        .navlist li{
+            float: left;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            width: 100px;
+        }
+        .navlist a{
+            color: #d13c3c;
+            display: block;
+        }
+        
+        .navlist{
+            width: 800px;
+            margin: auto;
+
+        }
+        .navlist a:hover{
+        background: #2f991c;
+        }
+        .btli{
+            float: left;
+            width: 100px;
+           line-height: 40px;
+           text-align: center;
+        }
+        .droplist{
+            background: #3083a7;
+            box-shadow: 0 2px  3px  #827979;
+            display: none;
+            border-radius: 15px;
+        }
+        .btli:hover .droplist{
+            display: block;
+        }
+        .droplist li{
+            border-top:1px #3083a7;
+        }
+    </style>
+</head>
+<body>
+   <div class="nav">
+    <ul class="navlist">
+      <li class="btli"><a href="#">首页</a>
+    <ul class="droplist">
+        <li><a href="#">下拉单</a></li>
+        <li><a href="#">下拉单</a></li>
+        <li><a href="#">下拉单</a></li>
+    </ul>
+</li>
+      <li class="btli"><a href="#">我们</a>
+        <ul class="droplist">
+            <li><a href="#">下拉单</a></li>
+            <li><a href="#">下拉单</a></li>
+            <li><a href="#">下拉单</a></li>
+        </ul></li>
+      <li class="btli"><a href="#">联系方式</a>
+        <ul class="droplist">
+            <li><a href="#">下拉单</a></li>
+            <li><a href="#">下拉单</a></li>
+            <li><a href="#">下拉单</a></li>
+        </ul></li>
+    </ul>
+   </div>
+</body>
+</html>
